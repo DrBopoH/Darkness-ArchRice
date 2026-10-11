@@ -1,0 +1,91 @@
+/* ~/.config/swaync/style.css */
+
+* {
+  font-family: monospace;
+  font-size: 12px;
+  border-radius: 0px;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+/* --- Ползунки --- */
+progressbar {
+  background-color: transparent;
+}
+
+trough {
+  background-color: #0f1714;
+  border: 1px solid #c8c2b8;
+  min-height: 8px;
+}
+
+highlight {
+  background-color: #c8c2b8;
+}
+
+/* --- Центр уведомлений (Панель) --- */
+.control-center {
+  background-color: #0f1714;
+  border: 1px solid #c8c2b8;
+  color: #c8c2b8;
+  padding: 12px;
+}
+
+.control-center-list {
+  background: transparent;
+}
+
+.widget-title {
+  color: #c8c2b8;
+  font-weight: bold;
+  padding: 4px;
+}
+
+.widget-title > button {
+  background-color: #0f1714;
+  border: 1px solid #c8c2b8;
+  color: #c8c2b8;
+  padding: 4px 8px;
+}
+
+.widget-title > button:hover {
+  background-color: #c8c2b8;
+  color: #0f1714;
+}
+
+.widget-dnd {
+  color: #c8c2b8;
+  border: 1px solid #c8c2b8;
+  background-color: #0f1714;
+  margin: 6px 0;
+  padding: 6px;
+}
+
+.widget-dnd > switch {
+  background-color: #0f1714;
+  border: 1px solid #c8c2b8;
+}
+
+.widget-dnd > switch:checked {
+  background-color: #c8c2b8;
+}
+
+.widget-volume,
+.widget-backlight {
+  background-color: #0f1714;
+  border: 1px solid #c8c2b8;
+  padding: 8px;
+  margin: 6px 0;
+  color: #c8c2b8;
+}
+
+scale {
+  padding: 4px 0;
+}
+
+scale slider {
+  background-color: #c8c2b8;
+  border: none;
+  min-width: 10px;
+  min-height: 10px;
+}

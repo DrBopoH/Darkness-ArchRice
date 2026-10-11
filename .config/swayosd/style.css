@@ -1,0 +1,27 @@
+/* ~/.config/swayosd/style.css */
+window {
+  background-color: #0f1714;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+#container {
+  margin: 10px;
+}
+
+image, label {
+  color: #c8c2b8;
+}
+
+progressbar:disabled,
+trough {
+  min-height: 8px;
+  border-radius: 0px;
+  background-color: #0f1714;
+  border: 1px solid #c8c2b8;
+}
+
+progress {
+  border-radius: 0px;
+  background-color: #c8c2b8;
+}
